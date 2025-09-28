@@ -85,8 +85,7 @@ class scenaFallos extends Phaser.Scene {
       // Verificar estado del contexto de audio
       console.log('Estado del contexto de audio:', this.sound.context ? this.sound.context.state : 'No disponible');
       
-      // Iniciar música de fondo después de la primera interacción
-      this.startBackgroundMusic();
+      // No iniciar música adicional aquí ya que MusicManager ya la maneja
       
       // Probar sonido de click
       setTimeout(() => {
