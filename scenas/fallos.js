@@ -1710,8 +1710,8 @@ class scenaFallos extends Phaser.Scene {
         ease: 'Power2',
         yoyo: true,
         onComplete: () => {
-          // Transición a la siguiente escena
-          this.scene.start('scenaPrincipal');
+          // Transición a la siguiente escena en la secuencia
+          this.scene.start('scenaVideo2');
         }
       });
     });
